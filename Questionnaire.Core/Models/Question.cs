@@ -8,5 +8,5 @@ public class Question
     public string Text { get; set; }
     public QuestionType Type { get; set; }
     public List<Answer> AnswerVariants { get; set; }
-    public int SelectedAnswerNumber { get; set; }
+    public Answer SelectedAnswer { get; set; }
 }
